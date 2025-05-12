@@ -30,7 +30,7 @@ public class BookSystem {
 
           System.out.print("Enter Quantity: ");
           int qty = scanner.nextInt();
-          scanner.nextLine(); // consume newline
+          scanner.nextLine();
 
           books.add(new Book(title, author, qty));
           System.out.println("Book added successfully!");
